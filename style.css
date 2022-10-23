@@ -1,0 +1,64 @@
+body{
+    background-image: url(/bg.jpg);
+    background-color: blue;
+}
+
+.card {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    box-shadow: 0 15px 25px rgba(32, 30, 30, 0.2);
+    height: 600px;
+    width: 500px;
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.dp{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.name{
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+
+}
+.logo{
+    margin-right: 2px;
+    height: 16px;
+    width: 16px;
+}
+
+.lower-row{
+    margin-top: 50px;
+}
+
+.low-logo{
+    height: 40px;
+    width: 40px;
+    display: inline;
+}
+
+.low-logo:root {
+    /* --animate-duration: 800ms; */
+    --animate-delay: 2s;
+  }
+
+  button{
+    display: inline-block;
+    vertical-align: middle;
+  }
